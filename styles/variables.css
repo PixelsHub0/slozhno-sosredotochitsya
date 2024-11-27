@@ -1,3 +1,39 @@
+:root {
+  --main-font: 'IBM Plex Mono',sans-serif;
+  --accent-color: #FF0070;
+  --main-bg-color: #000028;
+  --title-color: #FF0070;
+  --subtitle-color: #000028;
+  --main-text-color: #F1B2CE;
+  --nav-color: #FF0070;
+  --decorathion-corner: #FF0070;
+  --text-link-state: #F1B2CE;
+  --text-link-shadow: #FF0070;
+  --header-logo-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
+  --footer-logo-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
+  --header-logo-color: #DB00FF;
+  --footer-logo-color: #DB00FF;
+  --outline-nav-button: 1px solid #ff0070;
+  --line-height: 130%;
+  --text-size: 18px;
+  --titles-weight: 700;
+  --text-weight: 400;
+  --gap-element__sections: 20px;
+  --gap-sections: 50px;
+  --indicator-neon-positions-y: 10px;
+  --indicator-neon-positions-x: 20px;
+}
+
+@media (width >= 768px) {
+  :root {
+    --header-logo-size:  clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
+    --footer-logo-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
+    --indicator-neon-positions-y: 20px;
+    --indicator-neon-positions-x: 30px;
+    --gap-sections: 80px;
+  }
+  
+}
 /*
   Переменные для вашего проекта
   и их переопределение под различные устройства
