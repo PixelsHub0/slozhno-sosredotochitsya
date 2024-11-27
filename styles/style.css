@@ -146,7 +146,7 @@
   flex-direction: column;
   background-color: var(--main-bg-color);
   padding-inline: 10px;
-  gap: var(--gap-sections); 
+  gap: var(--gap-sections);
 }
 
 .section-how {
@@ -165,12 +165,8 @@
   display: grid;
   grid-template-rows:  min-content 1fr;
   gap: var(--gap-element__sections);
-}
-
-.section-why {
   margin-block-start: 40px;
 }
-
 .sections-title {
   color: var(--title-color);
   font-weight: var(--titles-weight);
