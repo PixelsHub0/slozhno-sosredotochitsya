@@ -1,5 +1,5 @@
 :root {
-  --main-font: 'IBM Plex Mono',sans-serif;
+  --main-font: 'IBM Plex Mono',monospace;
   --accent-color: #FF0070;
   --main-bg-color: #000028;
   --title-color: #FF0070;
@@ -13,7 +13,10 @@
   --footer-logo-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
   --header-logo-color: #DB00FF;
   --footer-logo-color: #DB00FF;
+  --logo-shadow:#ff0070;
   --outline-nav-button: 1px solid #ff0070;
+  --color-nav-button-state: #ff0070;
+  --color-nav-button-hover: rgba(255, 0, 111.89, 0.4);
   --line-height: 130%;
   --text-size: 18px;
   --titles-weight: 700;

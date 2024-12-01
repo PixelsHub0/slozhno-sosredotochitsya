@@ -6,14 +6,19 @@
 
 .page.theme_dark {
   --accent-color: #FF0070;
+  --main-bg-color: #000028;
   --title-color: #FF0070;
   --subtitle-color: #000028;
   --main-text-color: #F1B2CE;
   --nav-color: #FF0070;
   --header-logo-color: #DB00FF;
+  --footer-logo-color: #DB00FF;
   --decorathion-corner: #FF0070;
-  --text-link-state : #F1B2CE;
+  --text-link-state: #F1B2CE;
   --text-link-shadow: #FF0070;
+  --color-nav-button-state: #ff0070;
+  --logo-shadow:#ff0070;
+  --color-nav-button-hover: rgba(255, 0, 111.89, 0.4);
   background-image: url(../images/cover-image-dark.png);
   /* сохраните этот селектор в приведённом виде.
     Так стили написанные ниже будут иметь больший вес,
@@ -21,16 +26,8 @@
   */
 }
 
-.theme_dark .header__theme-menu-button_active {
-  --outline-nav-button: 1px solid #ff0070;
-}
-
 .theme_dark .indicator-neon {
-  display: block;
-}
-
-.header__theme-menu-button:hover {
-  outline:  1px solid rgba(255, 0, 112, 0.4)
+  display: flex;
 }
 
 
