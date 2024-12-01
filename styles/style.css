@@ -60,7 +60,6 @@
   font-weight: var(--text-weight);
   line-height: var(--line-height);
   color: var(--accent-color);
-
 }
 
 .indicator-neon::after {
@@ -154,11 +153,11 @@
 }
 
 .sections-title { 
-  color: var(--title-color); 
-  font-weight: var(--titles-weight); 
-  font-size: var(--text-size); 
-  line-height: var(--line-height); 
-} 
+  color: var(--title-color);
+  font-weight: var(--titles-weight);
+  font-size: var(--text-size);
+  line-height: var(--line-height);
+}
 
 .sections-main-text {
   display: grid;
